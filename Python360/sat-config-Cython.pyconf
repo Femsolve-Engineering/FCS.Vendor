@@ -1,0 +1,3 @@
+Cython : '0.29.12'
+Python : '3.6.5'
+setuptools : '41.0.1'

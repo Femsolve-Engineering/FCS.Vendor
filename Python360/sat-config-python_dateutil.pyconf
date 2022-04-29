@@ -1,0 +1,4 @@
+python_dateutil : '2.8.0'
+Python : '3.6.5'
+setuptools : '41.0.1'
+six : '1.12.0'

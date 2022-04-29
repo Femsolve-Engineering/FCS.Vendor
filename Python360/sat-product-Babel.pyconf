@@ -1,0 +1,50 @@
+name : 'Babel'
+build_source : 'script'
+compil_script : 'D:\\S\\SAT_SALOME\\products\\compil_scripts\\pip_install_whl.bat'
+get_source : 'archive'
+system_info :
+{
+  rpm :
+  [
+    'python3-babel'
+  ]
+  rpm_dev : [ ]
+  apt :
+  [
+    'python3-babel'
+  ]
+  apt_dev : [ ]
+}
+environ :
+{
+  env_script : 'D:\\S\\SAT_SALOME\\products\\env_scripts\\Babel.py'
+}
+depend :
+[
+  'Python'
+  'setuptools'
+  'pytz'
+]
+source_dir : 'D:\\S\\SALOME-9.6.0\\SOURCES\\Babel'
+build_dir : 'D:\\S\\SALOME-9.6.0\\BUILD\\Babel'
+install_dir : 'D:\\S\\SALOME-9.6.0\\W64\\Python'
+properties :
+{
+  incremental : 'yes'
+  pip : 'yes'
+}
+section : 'default'
+from_file : 'D:\\S\\SAT_SALOME\\products\\Babel.pyconf'
+archive_info :
+{
+  archive_name : 'Babel-2.7.0_windows.tar.gz'
+}
+sat_version : '5.3.0'
+debug : 'no'
+verbose : 'no'
+dev : 'no'
+hpc : 'no'
+version : '2.7.0'
+base : 'no'
+install_dir_save : 'base'
+depend_all : ['Python', 'setuptools', 'pytz']

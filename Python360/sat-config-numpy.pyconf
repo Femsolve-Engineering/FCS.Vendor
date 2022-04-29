@@ -1,0 +1,4 @@
+numpy : '1.16.4'
+Python : '3.6.5'
+setuptools : '41.0.1'
+Cython : '0.29.12'

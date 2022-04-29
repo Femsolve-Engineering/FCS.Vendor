@@ -1,0 +1,50 @@
+name : 'sphinx_rtd_theme'
+build_source : 'script'
+compil_script : 'D:\\S\\SAT_SALOME\\products\\compil_scripts\\sphinx_rtd_theme.sh'
+get_source : 'archive'
+system_info :
+{
+  rpm :
+  [
+    'python3-sphinx_rtd_theme'
+  ]
+  rpm_dev : [ ]
+  apt :
+  [
+    'python3-sphinx-rtd-theme'
+  ]
+  apt_dev : [ ]
+}
+environ :
+{
+  env_script : 'D:\\S\\SAT_SALOME\\products\\env_scripts\\sphinx_rtd_theme.py'
+}
+depend :
+[
+  'Python'
+  'Sphinx'
+]
+patches : [ ]
+source_dir : 'D:\\S\\SALOME-9.6.0\\SOURCES\\sphinx_rtd_theme'
+build_dir : 'D:\\S\\SALOME-9.6.0\\BUILD\\sphinx_rtd_theme'
+install_dir : 'D:\\S\\SALOME-9.6.0\\W64\\Python'
+properties :
+{
+  incremental : 'yes'
+  pip : 'yes'
+}
+section : 'default'
+from_file : 'D:\\S\\SAT_SALOME\\products\\sphinx_rtd_theme.pyconf'
+sat_version : '5.3.0'
+debug : 'no'
+verbose : 'no'
+dev : 'no'
+hpc : 'no'
+version : '0.4.3'
+base : 'no'
+archive_info :
+{
+  archive_name : 'sphinx_rtd_theme-0.4.3.tar.gz'
+}
+install_dir_save : 'base'
+depend_all : ['Python', 'Sphinx', 'setuptools', 'Pygments', 'Jinja2', 'markupsafe', 'docutils', 'sphinxcontrib_applehelp', 'sphinxcontrib_serializinghtml', 'sphinxcontrib_websupport', 'sphinxcontrib_htmlhelp', 'sphinxcontrib_qthelp', 'sphinxcontrib_devhelp', 'sphinxcontrib_jsmath', 'packaging', 'six', 'pyparsing', 'requests', 'certifi', 'urllib3', 'idna', 'chardet', 'imagesize', 'alabaster', 'Babel', 'pytz', 'snowballstemmer']
