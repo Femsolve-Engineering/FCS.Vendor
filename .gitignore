@@ -1,3 +1,6 @@
 # Cached files
 *.pyc
 **/__pycache__/**
+
+# Debug files
+*.pdb
